@@ -54,7 +54,7 @@ describe('OAuthComponent', () => {
         OAuthComponent, LoginComponent
       ],
       providers: [
-        { provide: ActivatedRoute, useValue: { snapshot: { data: { params: '?alt=json&access_token=TEST' } } } },
+        { provide: ActivatedRoute, useValue: { snapshot: { data: { params: '?alt=json&access_token=TEST'} } } },
         { provide: UserService, useValue: userService }
       ]
     })
